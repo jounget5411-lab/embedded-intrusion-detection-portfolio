@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+build/
+dataset_root/
+data/
+*.pth
+*.pt
+*.raw
+

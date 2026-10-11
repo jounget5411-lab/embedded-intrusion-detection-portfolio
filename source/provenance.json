@@ -1,0 +1,264 @@
+{
+  "archive": "jounget5411-lab/portfolio-source-archive",
+  "archive_commit": "c8618b1caef9cdf128ed20f62692d63818d9dd61",
+  "selection_policy": "Preserve selected project source/config, separate experiments from report reference; omit facial data, checkpoints, personal evaluations and generated build outputs.",
+  "files": [
+    {
+      "source": "archive/Desktop/대학교오오/3학뇬/2학기/임시설/project3_video/Z_project3/Core/Src/main.c",
+      "destination": "source/stm32-bringup/Core/Src/main.c",
+      "status": "included",
+      "meaning": "camera/UART bring-up; not final DMA/READY protocol",
+      "source_encoding": "utf-8",
+      "transformation": "none",
+      "source_sha256": "1915298e7384f436ac0a7628e176163dbd215db3821d7056f9a355a794c67478",
+      "output_sha256": "1915298e7384f436ac0a7628e176163dbd215db3821d7056f9a355a794c67478",
+      "bytes": 39814
+    },
+    {
+      "source": "archive/Desktop/대학교오오/3학뇬/2학기/임시설/project3_video/Z_project3/Core/Src/stm32f1xx_hal_msp.c",
+      "destination": "source/stm32-bringup/Core/Src/stm32f1xx_hal_msp.c",
+      "status": "included",
+      "meaning": "camera/UART bring-up; not final DMA/READY protocol",
+      "source_encoding": "utf-8",
+      "transformation": "none",
+      "source_sha256": "e33ac201e3bbf3c004e8eb27233b06f142933eb52fa5f82273f380f3d24664ae",
+      "output_sha256": "e33ac201e3bbf3c004e8eb27233b06f142933eb52fa5f82273f380f3d24664ae",
+      "bytes": 11337
+    },
+    {
+      "source": "archive/Desktop/대학교오오/3학뇬/2학기/임시설/project3_video/Z_project3/Core/Src/stm32f1xx_it.c",
+      "destination": "source/stm32-bringup/Core/Src/stm32f1xx_it.c",
+      "status": "included",
+      "meaning": "camera/UART bring-up; not final DMA/READY protocol",
+      "source_encoding": "utf-8",
+      "transformation": "none",
+      "source_sha256": "2a609ab52f34bd4a2376f0fc1ffbd1694c764297e52ee3fc77107a3e5f56ce5c",
+      "output_sha256": "2a609ab52f34bd4a2376f0fc1ffbd1694c764297e52ee3fc77107a3e5f56ce5c",
+      "bytes": 7319
+    },
+    {
+      "source": "archive/Desktop/대학교오오/3학뇬/2학기/임시설/project3_video/Z_project3/Core/Inc/main.h",
+      "destination": "source/stm32-bringup/Core/Inc/main.h",
+      "status": "included",
+      "meaning": "headers of archived bring-up project",
+      "source_encoding": "utf-8",
+      "transformation": "none",
+      "source_sha256": "26dd85c94b1ffe18472bd53bd920ca8e4f12ebb23841b822dd9ed673b1b56c69",
+      "output_sha256": "26dd85c94b1ffe18472bd53bd920ca8e4f12ebb23841b822dd9ed673b1b56c69",
+      "bytes": 2003
+    },
+    {
+      "source": "archive/Desktop/대학교오오/3학뇬/2학기/임시설/project3_video/Z_project3/Core/Inc/stm32f1xx_hal_conf.h",
+      "destination": "source/stm32-bringup/Core/Inc/stm32f1xx_hal_conf.h",
+      "status": "included",
+      "meaning": "headers of archived bring-up project",
+      "source_encoding": "utf-8",
+      "transformation": "none",
+      "source_sha256": "0627139075de21a1cb375b187a5b4bb0b89c2b9dac695887fb385bd3698107cc",
+      "output_sha256": "0627139075de21a1cb375b187a5b4bb0b89c2b9dac695887fb385bd3698107cc",
+      "bytes": 15706
+    },
+    {
+      "source": "archive/Desktop/대학교오오/3학뇬/2학기/임시설/project3_video/Z_project3/Core/Inc/stm32f1xx_it.h",
+      "destination": "source/stm32-bringup/Core/Inc/stm32f1xx_it.h",
+      "status": "included",
+      "meaning": "headers of archived bring-up project",
+      "source_encoding": "utf-8",
+      "transformation": "none",
+      "source_sha256": "4108391ef221a728ce16cd823abdb879c8622c0c80e976121cb68fbedab08042",
+      "output_sha256": "4108391ef221a728ce16cd823abdb879c8622c0c80e976121cb68fbedab08042",
+      "bytes": 2109
+    },
+    {
+      "source": "archive/Desktop/대학교오오/3학뇬/2학기/임시설/project3_video/Z_project3/Z_project3.ioc",
+      "destination": "source/stm32-bringup/Z_project3.ioc",
+      "status": "included",
+      "meaning": "configuration of archived bring-up project",
+      "source_encoding": "utf-8",
+      "transformation": "none",
+      "source_sha256": "4df73f0dfbab0b41e4e95b565e2e55ae5e64bbf3f68e7d715da0fd49ea2d252c",
+      "output_sha256": "4df73f0dfbab0b41e4e95b565e2e55ae5e64bbf3f68e7d715da0fd49ea2d252c",
+      "bytes": 6461
+    },
+    {
+      "source": "archive/Desktop/대학교오오/3학뇬/2학기/임시설/project3_video/Z_project3/STM32F103RBTX_FLASH.ld",
+      "destination": "source/stm32-bringup/STM32F103RBTX_FLASH.ld",
+      "status": "included",
+      "meaning": "configuration of archived bring-up project",
+      "source_encoding": "utf-8",
+      "transformation": "none",
+      "source_sha256": "146d8c28a53b4c7e2f2e04c6f0abab38b6c3de0eeb1a070da3797040bf276371",
+      "output_sha256": "146d8c28a53b4c7e2f2e04c6f0abab38b6c3de0eeb1a070da3797040bf276371",
+      "bytes": 5308
+    },
+    {
+      "source": "archive/Desktop/대학교오오/3학뇬/2학기/임시설/project3_video/Z_project3/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt",
+      "destination": "source/stm32-bringup/LICENSE.txt",
+      "status": "included",
+      "meaning": "original vendor license notice",
+      "source_encoding": "utf-8",
+      "transformation": "none",
+      "source_sha256": "d5a162f3eaf2b7b6762f00700017cae5695ebbdce7932fead8316448baafd9c1",
+      "output_sha256": "d5a162f3eaf2b7b6762f00700017cae5695ebbdce7932fead8316448baafd9c1",
+      "bytes": 377
+    },
+    {
+      "source": "archive/Desktop/대학교오오/3학뇬/2학기/임시설/emb_pj3_spi2/Core/Src/main.c",
+      "destination": "source/spi-diagnostic/main.c",
+      "status": "included",
+      "meaning": "two-byte SPI2 interrupt/error/rearm diagnostic; no camera or final protocol",
+      "source_encoding": "utf-8",
+      "transformation": "none",
+      "source_sha256": "fd731c65ba9eff0cdd57af989413e98857c1fb96b952bb4ee108b9e956376a3b",
+      "output_sha256": "fd731c65ba9eff0cdd57af989413e98857c1fb96b952bb4ee108b9e956376a3b",
+      "bytes": 10666
+    },
+    {
+      "source": "archive/Desktop/대학교오오/3학뇬/2학기/임시설/emb_pj3_camera/emb_pj3_camera.sdk/cam_RTOS/src/freertos_hello_world.c",
+      "destination": "source/zynq-camera-experiment/freertos_hello_world.c",
+      "status": "included",
+      "meaning": "Camera_Task experiment; not final three-task pipeline",
+      "source_encoding": "cp949",
+      "transformation": "CP949 text converted to UTF-8; code unchanged",
+      "source_sha256": "4c9b5928e80d84353b00cf7a4d7242e649487054efbdd8b5044c88fb7c39b06e",
+      "output_sha256": "d82f372c2ba1045022a252434680a09c88b24072ed61f721ac0deb6712165388",
+      "bytes": 10067
+    },
+    {
+      "source": "archive/Desktop/대학교오오/3학뇬/2학기/임시설/emb_pj3_camera/emb_pj3_camera.sdk/cam_RTOS_bsp/ps7_cortexa9_0/include/FreeRTOSConfig.h",
+      "destination": "source/zynq-camera-experiment/FreeRTOSConfig.h",
+      "status": "included",
+      "meaning": "original experiment BSP configuration; Idle Hook disabled",
+      "source_encoding": "utf-8",
+      "transformation": "none",
+      "source_sha256": "0f52c326c3dc0cfcabef2e17e2b7dccb6a2b022979cf015b68e18f9b204e0f19",
+      "output_sha256": "0f52c326c3dc0cfcabef2e17e2b7dccb6a2b022979cf015b68e18f9b204e0f19",
+      "bytes": 4894
+    },
+    {
+      "source": "archive/Desktop/대학교오오/3학뇬/2학기/임시설/emb_pj3_camera/emb_pj3_camera.sdk/cam_RTOS_bsp/system.mss",
+      "destination": "source/zynq-camera-experiment/system.mss",
+      "status": "included",
+      "meaning": "original experiment BSP manifest",
+      "source_encoding": "utf-8",
+      "transformation": "none",
+      "source_sha256": "ae941036aed93724a1259c99f06efcc6040c1e3cbf9310439604e386cdee4393",
+      "output_sha256": "ae941036aed93724a1259c99f06efcc6040c1e3cbf9310439604e386cdee4393",
+      "bytes": 4471
+    },
+    {
+      "source": "archive/Desktop/대학교오오/3학뇬/2학기/임시설/emb_pj3_camera/emb_pj3_camera.srcs/sources_1/bd/design_1/design_1.bd",
+      "destination": "source/hardware/design_1.bd",
+      "status": "included",
+      "meaning": "archived Vivado 2025.2 block design; two EMIO GPIO signals",
+      "source_encoding": "utf-8",
+      "transformation": "none",
+      "source_sha256": "f3d3777d10920206880c4d89e07003ce4c2831a976a79be7441da9c5b810beb4",
+      "output_sha256": "f3d3777d10920206880c4d89e07003ce4c2831a976a79be7441da9c5b810beb4",
+      "bytes": 39650
+    },
+    {
+      "source": "archive/Desktop/대학교오오/3학뇬/2학기/임시설/emb_pj3_camera/emb_pj3_camera.srcs/constrs_1/new/arducam.xdc",
+      "destination": "source/hardware/arducam.xdc",
+      "status": "included",
+      "meaning": "archived experiment constraints; not final four-GPIO mapping",
+      "source_encoding": "cp949",
+      "transformation": "CP949 text converted to UTF-8; code unchanged",
+      "source_sha256": "02ea2f117685771454c46adf3278fb9f6dc94cbc4ac2bb1bdf280d27813748c4",
+      "output_sha256": "cfce69a05669641924485f08f049e55caacb7c6532f8f349148e6e8b59cd9b32",
+      "bytes": 2299
+    },
+    {
+      "source": "archive/Desktop/대학교오오/3학뇬/2학기/임시설/3class/제출/train_cnn_3class.py",
+      "destination": "source/model/train_cnn_3class.py",
+      "status": "included",
+      "meaning": "submitted model source; no checkpoint or facial dataset copied",
+      "source_encoding": "utf-8",
+      "transformation": "none",
+      "source_sha256": "fc15152ec79e507eb0e774fbf19bc1ebf50fb4517d3d577a7108fe081f134284",
+      "output_sha256": "fc15152ec79e507eb0e774fbf19bc1ebf50fb4517d3d577a7108fe081f134284",
+      "bytes": 7789
+    },
+    {
+      "source": "archive/Desktop/대학교오오/3학뇬/2학기/임시설/3class/제출/export_tinycnn3_to_header.py",
+      "destination": "source/model/export_tinycnn3_to_header.py",
+      "status": "included",
+      "meaning": "submitted model source; no checkpoint or facial dataset copied",
+      "source_encoding": "utf-8",
+      "transformation": "none",
+      "source_sha256": "ac9a4c6a68dfa56b760da77a93756cd676e4a0ece001ca7622b137933a77f0f2",
+      "output_sha256": "ac9a4c6a68dfa56b760da77a93756cd676e4a0ece001ca7622b137933a77f0f2",
+      "bytes": 3936
+    },
+    {
+      "source": "archive/Desktop/대학교오오/3학뇬/2학기/임시설/3class/제출/tinycnn3_weights.h",
+      "destination": "source/model/tinycnn3_weights.h",
+      "status": "included",
+      "meaning": "submitted model source; no checkpoint or facial dataset copied",
+      "source_encoding": "utf-8",
+      "transformation": "none",
+      "source_sha256": "b80d9be758eecd71202170b0e78efe5027426c90db541d94966db572ce789700",
+      "output_sha256": "b80d9be758eecd71202170b0e78efe5027426c90db541d94966db572ce789700",
+      "bytes": 1472354
+    }
+  ],
+  "compared_not_all_published": [
+    {
+      "path": "archive/Desktop/대학교오오/3학뇬/2학기/임시설/project3_video/Z_project3/Core/Src/main.c",
+      "sha256": "1915298e7384f436ac0a7628e176163dbd215db3821d7056f9a355a794c67478",
+      "bytes": 39814
+    },
+    {
+      "path": "archive/Desktop/대학교오오/3학뇬/2학기/임시설/project3_stm32/Z_project3/Core/Src/main.c",
+      "sha256": "65791a2bac09aae7bcf67fdea285eab64eaf336b5cb9bd7b7946315e24f9207b",
+      "bytes": 16394
+    },
+    {
+      "path": "archive/Documents/카카오톡 받은 파일/project3_stm32/Z_project3/Core/Src/main.c",
+      "sha256": "9c34c7bc6f7218d3e41aaf2ed331e803360830838662719e17561483c8388147",
+      "bytes": 39808
+    },
+    {
+      "path": "archive/Desktop/대학교오오/3학뇬/2학기/임시설/emb_pj3_spi2/Core/Src/main.c",
+      "sha256": "fd731c65ba9eff0cdd57af989413e98857c1fb96b952bb4ee108b9e956376a3b",
+      "bytes": 10666
+    },
+    {
+      "path": "archive/Desktop/잡/visitsssss/pj3/src/main.c",
+      "sha256": "fb6304a2603f21d3ead1845eef0b91811cf746825f87499226d8ad3197417373",
+      "bytes": 1928
+    }
+  ],
+  "model_array_counts": {
+    "CONV1_WEIGHT": 72,
+    "CONV1_BIAS": 8,
+    "CONV2_WEIGHT": 1152,
+    "CONV2_BIAS": 16,
+    "FC1_WEIGHT": 131072,
+    "FC1_BIAS": 32,
+    "FC2_WEIGHT": 96,
+    "FC2_BIAS": 3
+  },
+  "model_parameter_count": 132451,
+  "duplicate_model_comparison": {
+    "train_cnn_3class.py": {
+      "submission_git_blob": "50eac9a99c8c8b3011769fd9fb1d71879822cced",
+      "parent_git_blob": "50eac9a99c8c8b3011769fd9fb1d71879822cced",
+      "byte_identical": true,
+      "method": "Compare Git blob IDs in archived commit; no checkpoint deserialization."
+    },
+    "export_tinycnn3_to_header.py": {
+      "submission_git_blob": "45d1c3c5865555a30b11b19542345586ffc2c67a",
+      "parent_git_blob": "45d1c3c5865555a30b11b19542345586ffc2c67a",
+      "byte_identical": true,
+      "method": "Compare Git blob IDs in archived commit; no checkpoint deserialization."
+    },
+    "tinycnn3_weights.h": {
+      "submission_git_blob": "94a375705cc00f1b39a83bdd4c572c9b23d1f75b",
+      "parent_git_blob": "94a375705cc00f1b39a83bdd4c572c9b23d1f75b",
+      "byte_identical": true,
+      "method": "Compare Git blob IDs in archived commit; no checkpoint deserialization."
+    }
+  },
+  "validation": "Read-only comparison and source selection; no training, firmware build or device execution."
+}

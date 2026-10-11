@@ -1,0 +1,25 @@
+{
+  "report_sha256": "38bbb89fe92104217d63dd02610ee8a9d5a13b80d4f8ab570648fe945ca086be",
+  "outputs": [
+    {
+      "path": "source/report-reference/stm32_main.c",
+      "source": "P3 original report appendix",
+      "physical_pages": [
+        70,
+        94
+      ],
+      "sha256": "5b62b31631d64162075b66941565ed28df1674777f80eef9efa56b1b282173ad",
+      "status": "PDF appendix reference restoration; not compiled"
+    },
+    {
+      "path": "source/report-reference/zynq_main.c",
+      "source": "P3 original report appendix",
+      "physical_pages": [
+        95,
+        109
+      ],
+      "sha256": "ec917e0028c79ed4d26284d4e6e0fa6b35693bef7ed69ad0b4216bc050de0946",
+      "status": "PDF appendix reference restoration; not compiled"
+    }
+  ]
+}
