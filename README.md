@@ -4,17 +4,19 @@
 
 **STM32F103RB · Zybo Z7-20 · C/HAL · FreeRTOS · SPI/DMA · CNN · FatFs**
 
+## 시연
+
+[![접근 감지·사진 판별·선별 저장 시연 미리보기 · 약 10초](assets/demo-preview.gif)](media/demo.mp4)
+
+[전체 시연영상](media/demo.mp4) · [확인할 구간](docs/demo.md)
+
+접근 알림 뒤 수신·판별·저장을 거쳐 다음 이벤트를 기다리는 흐름을 볼 수 있습니다. 최종 부록 설정과 영상·로그의 중간 버전 차이는 [코드 안내](docs/code-map.md)에 정리했습니다.
+
 ## 전체 흐름
 
 ![STM32 촬영·청크 전송과 Zynq PS 수신·판별·저장 구조](assets/system-flow.svg)
 
 STM32는 HAL 기반 bare-metal 펌웨어, Zynq PS는 기존 Xilinx BSP 위의 FreeRTOS 애플리케이션입니다. CNN은 PC에서 학습하고 PS에서 float32 C 코드로 실행합니다. PL에서 AI 연산을 가속하는 구조는 아닙니다.
-
-## 시연
-
-[전체 시연영상](media/demo.mp4) · [확인할 구간](docs/demo.md)
-
-접근 알림 뒤 수신·판별·저장을 거쳐 다음 이벤트를 기다리는 흐름을 볼 수 있습니다. 최종 부록 설정과 영상·로그의 중간 버전 차이는 [코드 안내](docs/code-map.md)에 정리했습니다.
 
 ## 주요 구현
 
