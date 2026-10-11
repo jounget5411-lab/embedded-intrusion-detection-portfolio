@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="360" viewBox="0 0 1080 360" role="img" aria-labelledby="title desc">
+  <title id="title">STM32 촬영과 Zynq PS 사진 판별·선별 저장</title>
+  <desc id="desc">STM32 HAL bare-metal 펌웨어가 초음파 접근 이벤트와 카메라 FIFO를 제어하고 SPI DMA로 사진 청크를 전송합니다. Zynq PS의 FreeRTOS 수신·판별·저장 태스크가 처리하며 낯선 사람 사진만 SD에 저장합니다. 모델은 PC에서 학습하고 PS에서 float32 C로 실행합니다.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#277c9c"/></marker>
+    <style>text{font-family:'Segoe UI','Malgun Gothic',sans-serif;fill:#172b44}.heading{font-size:22px;font-weight:700}.node-title{font-size:20px;font-weight:700}.body{font-size:18px}.note{font-size:16px}.box{fill:#fff;stroke:#ccd8e4;stroke-width:1.5}.task{fill:#f1f7f5;stroke:#c8dfd7;stroke-width:1}.flow{fill:none;stroke:#277c9c;stroke-width:2;marker-end:url(#arrow)}</style>
+  </defs>
+  <rect width="1080" height="360" rx="16" fill="#f7f9fc"/>
+  <text class="heading" x="24" y="34">접근 이벤트 → 사진 수신 → 판별 → 선택적 저장</text>
+  <text class="note" x="24" y="60">사진 한 장을 순서대로 처리하는 두 보드 구조입니다.</text>
+  <rect class="box" x="22" y="111" width="171" height="146" rx="12"/>
+  <text class="node-title" x="107" y="146" text-anchor="middle">HC-SR04</text>
+  <text class="body" x="107" y="174" text-anchor="middle">접근 감지</text>
+  <text class="node-title" x="107" y="210" text-anchor="middle">OV5642</text>
+  <text class="body" x="107" y="237" text-anchor="middle">사진 · 외부 FIFO</text>
+  <rect class="box" x="235" y="85" width="236" height="194" rx="12"/>
+  <rect x="235" y="85" width="236" height="5" rx="2" fill="#277c9c"/>
+  <text class="node-title" x="253" y="118">STM32F103RB</text>
+  <text class="note" x="253" y="146">bare-metal · HAL</text>
+  <text class="body" x="253" y="184">촬영 · FIFO 읽기</text>
+  <text class="body" x="253" y="216">2 KB 청크 전송</text>
+  <text class="body" x="253" y="248">SPI slave · DMA</text>
+  <rect class="box" x="525" y="85" width="306" height="214" rx="12"/>
+  <rect x="525" y="85" width="306" height="5" rx="2" fill="#24856e"/>
+  <text class="node-title" x="543" y="117">Zynq PS · FreeRTOS</text>
+  <text class="note" x="543" y="144">CNN은 PS에서 float32 C 실행</text>
+  <rect class="task" x="543" y="159" width="270" height="32" rx="7"/>
+  <text class="body" x="556" y="182">RxTask · SPI 수신</text>
+  <path class="flow" d="M678 191V200"/>
+  <rect class="task" x="543" y="204" width="270" height="32" rx="7"/>
+  <text class="body" x="556" y="227">AITask · CNN / 유사도</text>
+  <path class="flow" d="M678 236V245"/>
+  <rect class="task" x="543" y="249" width="270" height="32" rx="7"/>
+  <text class="body" x="556" y="272">SaveTask · 저장 여부</text>
+  <rect class="box" x="885" y="131" width="173" height="138" rx="12"/>
+  <text class="node-title" x="971" y="167" text-anchor="middle">SD 카드</text>
+  <text class="body" x="971" y="202" text-anchor="middle">낯선 사람: 저장</text>
+  <text class="note" x="971" y="232" text-anchor="middle">배경·소유자: 생략</text>
+  <path class="flow" d="M193 184H231"/>
+  <path class="flow" d="M471 184H521"/>
+  <text class="note" x="498" y="165" text-anchor="middle">SPI</text>
+  <path class="flow" d="M831 265H856V201H881"/>
+  <rect class="box" x="22" y="291" width="407" height="37" rx="9"/>
+  <text class="note" x="39" y="315">PC에서 모델 학습 → C 가중치 헤더</text>
+  <path class="flow" d="M429 310H678V303"/>
+  <text class="note" x="478" y="348">ALARM: 수신 시작 · READY: DMA 응답 준비 알림</text>
+</svg>
